@@ -1,0 +1,211 @@
+@font-face
+   {
+      font-family: AkzidenzGrotesk-Regular; src: url('fonts/AkzidenzGrotesk-Regular.otf'); 
+   }
+ body{
+	font-family:'AkzidenzGrotesk-Regular',serif;
+	font-size: 14px;	
+}
+#content{
+	max-width: 1280px;
+	margin: 0 auto;
+}
+header{
+	background-color: #296354;
+	padding-top: 10px;
+}
+hr {
+  padding: 0;
+  background-image: linear-gradient(to right, #296354 , #fbe7c3);
+  border: 0;
+}
+ul{
+	list-style: none;
+	padding: 15px 0 15px 0;	
+}
+li{
+	display: inline-block;
+}
+
+a{
+	text-decoration: none;
+}
+h2{
+	color: #ffffff;
+	font-size: 150%;
+}
+#titre img{
+	width: 50%;
+	margin: auto;
+	display: block;
+}
+#stitre{
+    width: 100%;
+}
+#stitre img{
+    float: left;
+    width: 100px;
+    margin-left: 60px;
+}
+.topnav {
+  overflow: hidden;
+}
+
+nav{
+	float: right;
+	margin: 0 50px 0 0 ;
+}
+nav li{
+	margin: 0 15px 0 15px;
+}
+
+.choix a{
+	color: #fbe7c3;
+}
+.who a{
+	color: #f4be51;
+}
+
+.menu a{
+	color: #f4be51;
+}
+.btnbuy a{
+	color: #ffffff;
+}
+.btnbuy {
+	background-color:#e48f56;
+	display:inline-block;
+	cursor:pointer;
+	padding:13px 10px;
+	text-decoration:none;
+}
+.btnbuy:hover {
+	background-color:#e39b16;
+}
+.btnbuy:active {
+	position:relative;
+	top:1px;
+}
+#slider{
+	
+}
+#slider img{
+	margin: 0;
+	width: 100%;
+}
+#textslider{
+	float: left;
+	position: relative; left: 55px; bottom: 350px;
+}
+#formulaire{
+	text-align: center;
+}
+
+@media screen and (min-width: 1080px) {
+#myTopnavResponsive{
+	display: none;
+}
+.icon {
+  display: none;
+}
+ #btn{
+	display: none;
+}
+}
+
+
+
+@media screen and (max-width: 1080px) {
+
+ .btnbuy{
+ 	float: right;
+	margin: 80px 0 0 0;
+}
+#stitre{
+	height: 180px;
+}
+ .topnav{
+ 	display: none;
+ }
+
+ .icon{
+ 	color: #ffffff;
+ 	float: right;
+ 	margin: 10px 30px 0 0;
+ }
+
+#menuVertical {
+    background-color: #296354 ;
+    width: 220px;
+    float: right;
+}
+
+
+#menuVertical li {
+    position:   relative;
+    background-color: #296354 ;
+}
+#menuVertical a {
+    display: block ;
+    width: 200px;
+    height: 30px;
+    line-height: 30px; 
+    padding: 3px 10px;
+    text-align: center;
+}
+
+#menuVertical ul a {
+    display: block;
+}
+
+/* Gestion des couleurs */
+
+#menuVertical li a {
+    color: #ccc; 
+}
+#menuVertical li:hover {
+    background-color: #000; /* Couleur d'arriere-plan du menu au survol */
+}
+#menuVertical li:hover a {
+    color: #fff; /* Couleur du texte du menu au survol */
+}
+#menuVertical ul li {
+    background-color: #ccc; /* Couleur d'arriere-plan des sous-menu */
+}
+#menuVertical ul li:hover {
+    background-color: #000; /* Couleur d'arriere-plan des sous-menu au survol */
+}
+#menuVertical ul li a {
+    color: #666; /* Couleur du texte des sous-menu */
+}
+#menuVertical ul li:hover a {
+    color: #f00 ; /* Couleur du texte des sous-menu au survol */
+}
+
+ #textslider{
+	float: left;
+	position: relative; left: 55px; bottom: 250px;
+}
+}
+
+
+@media only screen and (max-width: 630px) {
+ .btnbuy{
+ 	width: 100%;
+	margin: 18px 0 0 0;
+}
+#menuVertical {
+    background-color: #296354 ;
+    width: 100%;
+    text-align: center;
+}
+#menuVertical a {
+    width: 100%;
+}
+#menuVertical li {
+    width: 100%;
+}
+}
+
+
+
